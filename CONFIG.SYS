@@ -1,0 +1,25 @@
+[menu]
+menuitem=GAMES, Play Games!
+menuitem=GAMES_ULTRASOUND, Play Games with Gravis Ultrasound card
+menuitem=NETWORK, Work with Network
+menudefault=GAMES, 30
+menucolor=7,0
+
+[COMMON]
+DOS=HIGH,UMB
+DEVICE=C:\DOS\HIMEM.SYS
+DEVICE=C:\DOS\EMM386.EXE NOEMS
+FILES=30
+BUFFERS=20
+
+[GAMES]
+REM Configurations for playing games
+DEVICE=C:\DOS\ANSI.SYS
+
+[GAMES_ULTRASOUND]
+REM Configurations for playing games with Gravis Ultrasound
+DEVICE=C:\ULTRASND\ULTRINIT.EXE
+
+[NETWORK]
+REM Configurations for network
+DEVICE=C:\NET\PROTOCOL.SYS
